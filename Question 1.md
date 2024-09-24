@@ -10,16 +10,17 @@
 | **A\***   | O(b^d)                | O(b^d)              | Yes                                                 | Yes (when heuristic is admissible)            |
 
 
+**BFS** 
 b - branching factor
 d - depth of the solution
 
-
+**UCS**
 b - branching factor
 C - cost of the optimal solution 
 ε - minimum cost between any two states
 
-
+**DFS** 
 n - depth of the search tree
 
-
+**DLS** 
 l - depth limit

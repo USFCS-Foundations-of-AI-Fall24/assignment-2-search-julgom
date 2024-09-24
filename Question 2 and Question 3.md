@@ -1,25 +1,25 @@
 ## Question 2
-3. **Run this with the included BFS and DFS implementations. Extend each of these to count the number 
+**3. Run this with the included BFS and DFS implementations. Extend each of these to count the number 
 of states generated. Print this out at the end.**
 
 BFS - 3   
 DFS - 3  
 Goal not found for both  
 
-4. **Extend the depth_first_search function to implement depth_limited_search by providing an optional 
+**4. Extend the depth_first_search function to implement depth_limited_search by providing an optional 
 limit parameter. When you are generating successors, only go to depth=limit in the search tree. (You are welcome to extend 
 the RoverState class to make this easier if you'd like.)**
 
 DLS - 3 with limit = 7  
 
-5. **Run each of the three algorithms (breadth_first_search, depth_first_search, depth_limited_search) on this new problem 
+**5. Run each of the three algorithms (breadth_first_search, depth_first_search, depth_limited_search) on this new problem 
 and count the number of states generated.**
 
 BFS - 19  
 DFS - 14  
 DLS - 14 with limit = 7  
 
-6. **An early insight in solving search-based problems was the idea of problem decomposition. If a 
+**6. An early insight in solving search-based problems was the idea of problem decomposition. If a 
 problem can be subdivided into smaller components that can be solved separately, we can deal with scaling more easily.
 Modify your search code so that it instead solves three subproblems: moveToSample, removeSample, and returnToCharger. 
 You can do this by changing the start state and goal test. How does this change the number of states generated?

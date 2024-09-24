@@ -14,13 +14,13 @@
 b - branching factor  
 d - depth of the solution  
 
-**UCS**
-b - branching factor
-C - cost of the optimal solution 
-ε - minimum cost between any two states
+**UCS**  
+b - branching factor  
+C - cost of the optimal solution   
+ε - minimum cost between any two states  
 
-**DFS** 
-n - depth of the search tree
+**DFS**   
+n - depth of the search tree  
 
-**DLS** 
-l - depth limit
+**DLS**  
+l - depth limit  

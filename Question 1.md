@@ -1,4 +1,4 @@
-# Question 1: Algorithm Analysis
+# Question 1
 
 | Algorithm | Time Complexity       | Space Complexity    | Complete?                                           | Optimal?                                      |
 |-----------|-----------------------|---------------------|-----------------------------------------------------|-----------------------------------------------|

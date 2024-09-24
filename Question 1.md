@@ -10,9 +10,9 @@
 | **A\***   | O(b^d)                | O(b^d)              | Yes                                                 | Yes (when heuristic is admissible)            |
 
 
-**BFS** 
-b - branching factor
-d - depth of the solution
+**BFS**  
+b - branching factor  
+d - depth of the solution  
 
 **UCS**
 b - branching factor

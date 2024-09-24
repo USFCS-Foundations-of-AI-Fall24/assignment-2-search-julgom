@@ -1,7 +1,7 @@
 
-Question 5
-a) What were the engineering advances that led to Deep Blue's success? Which of them can be transferred to other problems, 
-and which are specific to chess?
+## Question 5
+**a) What were the engineering advances that led to Deep Blue's success? Which of them can be transferred to other problems, 
+and which are specific to chess?**
 
 Deep Blue's victory over Garry Kasparov in 1997 came from several key engineering advancements. One major improvement was the 
 enhanced chess chips in Deep Blue II. These chips had a completely redesigned evaluation function, increasing the number of 
@@ -19,9 +19,9 @@ industries.
 Lastly, the new chips included specialized move generation features, like hardware repetition detection. While these enhancements
 optimized gameplay specifically for chess, the idea of optimizing operations can also apply to other strategic simulations. 
 
-b) AlphaZero is compared to a number of modern game-playing programs, such as StockFish, which work similarly to Deep Blue. 
+**b) AlphaZero is compared to a number of modern game-playing programs, such as StockFish, which work similarly to Deep Blue. 
 The paper shows that AlphaZero is able to defeat StockFish even when it is given only 1/100 of the computing time. Why is that? 
-Please frame your answer in terms of search and the number of nodes evaluated.
+Please frame your answer in terms of search and the number of nodes evaluated.**
 
 AlphaZero beats Stockfish even with just 1/100 of the computing time because of how it searches and evaluates moves. 
 Unlike Stockfish, which uses a super-fast alpha-beta search to check millions of positions, AlphaZero relies on a Monte Carlo 

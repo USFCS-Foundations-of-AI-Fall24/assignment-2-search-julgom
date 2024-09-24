@@ -59,10 +59,7 @@ def a_star(start_state, heuristic_fn, goal_test, use_closed_list=True):
 
         if goal_test(current_state):
             print("Goal found")
-            #ptr = current_state
-            #while ptr.location != '8,8': 
-            #    ptr = ptr.prev_state
-            #    print(ptr.location,"\n")
+    
             return current_state, state_count
        
         else :
@@ -121,7 +118,6 @@ def read_mars_graph(filename):
                 dest_node = Node(dest)
                 edge = Edge(src_node, dest_node, 1)
                 mars_graph.add_edge(edge)
-    
     return mars_graph
 
 if __name__ == "__main__":
